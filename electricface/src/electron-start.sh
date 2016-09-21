@@ -14,13 +14,6 @@ cat <<EOF
 
 Starting the Electron-WebSocket server on port $WEBSOCKET_PORT.
 
-Access the demo through the HTTP server in your browser.
-If you're running on the same computer outside of Docker, use http://localhost:$HTTP_PORT
-If you're running on the same computer with Docker, find the IP
-address of the Docker container and use http://<docker-ip>:$HTTP_PORT.
-If you're running on a remote computer, find the IP address
-and use http://<remote-ip>:$HTTP_PORT.
-
 WARNING: Chromium refuses to connect to the insecure WebSocket server
 if you are running a remote or Docker deployment.
 We have posted a workaround to forward traffic through localhost
