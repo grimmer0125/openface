@@ -30,4 +30,4 @@ RUN cd ~/openface && \
 EXPOSE 8000 9000
 
 
-# CMD /bin/bash -l -c '/root/openface/electricface/src/run.sh'
+CMD /bin/bash -l -c '/root/openface/electricface/src/run.sh'
